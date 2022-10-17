@@ -54,7 +54,7 @@ const contenedor = new Contenedor("./productos.txt");
 /* Usamos el obj contenedor con el metodo deleteById para eliminar un producto por id
 *  d nuestro archivo productos.txt
 */
-// contenedor.deleteById(4);
+contenedor.deleteById(1);
 
 /* =========================================================================
    Metodo deleteAll()
@@ -63,4 +63,4 @@ const contenedor = new Contenedor("./productos.txt");
 /* Usamos el obj contenedor con el metodo deleteAll para eliminar todos  los
 *  productos de nuestro archivo productos.txt
 */
-contenedor.deleteAll();
+// contenedor.deleteAll();
