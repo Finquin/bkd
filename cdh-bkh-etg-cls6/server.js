@@ -55,6 +55,12 @@ app.get("/productoRandom", async (_req, res) => {
    const productosMax = productosAll.length;
    /* calculamos un producto al azar entre 1 y  el maximo de productos */
    const productoIdRandon = Math.floor(Math.random() * (productosMax + 1 - 1)) + 1;
+
+   /*
+   *alternatica mas optima para el producto randon
+   *const productoIdRandon = productosAll[Math.floor(Math.random()*productosAll.length)]
+   */
+
    /* llamamos a nuestro metodo y traemos nuestro producto por id */
    const productoRandon = await contenedor.getById(productoIdRandon);
    res.status(200).send(productoRandon);

@@ -1,0 +1,8 @@
+
+
+POST  http://localhost:8080/api/productos/ HTTP/1.1
+content-type: application/json
+
+{"title": "Pelotas ",
+   "price": 5.67,
+   "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"}
