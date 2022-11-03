@@ -104,6 +104,6 @@ dist
 .tern-port
 
 # Myfile
-README.md
+README1.md
 .stylelintrc.json
 .eslintrc.js
