@@ -1,0 +1,33 @@
+<h1>{{title}}</h1>
+
+<div class="container">
+    {{#if listExits}}
+    <div class="card-productos">
+        <div class="card">
+            <div class="card-header ">Nombre</div>
+            <div class="card-header">Precio</div>
+            <div class="card-header">Foto</div>
+        </div>
+        {{#each msg}}
+        <div class="card ">
+            <div class="card-title">
+                <h3>{{title}}</h3>
+            </div>
+            <div class="card-price">
+                <p>$ {{price}}</p>
+            </div>
+            <div class="card-img">
+                <img src="{{thumbnail}}" alt="{{thumbnail}}">
+            </div>
+
+        </div>
+        {{/each}}
+    </div>
+    {{else}}
+    <div class="">
+        <h1>No se encontraron elementos</h1>
+    </div>
+    {{/if}}
+      
+</div>
+<div class="produtos-btn">  <a href="/indexHbs.html" class="form-btn">Volver al Formulario</a> </div>

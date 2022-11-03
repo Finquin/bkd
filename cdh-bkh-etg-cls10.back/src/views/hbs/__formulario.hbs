@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+<h2>{{msg}}</h2>
+ <div class="form-ctn">
+
+        <form action="/api/hbs/productos" method="POST">
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="title" name="title" placeholder="title" />
+
+
+            <label for="mail">Precio:</label>
+            <input type="number" min="0" id="price" name="price" placeholder="Price" />
+
+            <label for="msg">Foto Url:</label>
+            <input type="url" id="thumbnail" name="thumbnail" placeholder="thumbnail" />
+            <input class="input-btn" type="submit" value="enviar" />
+        </form>
+ </div>
