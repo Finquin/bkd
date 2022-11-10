@@ -4,7 +4,7 @@ const { Server: HttpServer } = require("http");
 const { Server: IoServer } = require("socket.io");
 /* llamamos a la variable de entorno env.PORT */
 const Contenedor = require("./src/services/contenedor.wechat");
-const contenedor = new Contenedor("./productos.json");
+
 const chatMessages = new Contenedor("./mensajes.json");
 
 const httpServer = new HttpServer(app);

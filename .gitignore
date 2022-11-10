@@ -106,4 +106,5 @@ dist
 # Myfile
 README1.md
 .stylelintrc.json
+.stylelintrc
 .eslintrc.js
