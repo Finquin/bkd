@@ -1,0 +1,21 @@
+{
+  "extends": "stylelint-config-standard",
+  "customSyntax": "postcss-syntax",
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "order/properties-alphabetical-order": true,
+    "indentation": 2,
+    "declaration-colon-newline-after": "always-multi-line",
+    "selector-type-no-unknown": null,
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "content-visibility"
+        ]
+      }
+    ]
+  }
+}
