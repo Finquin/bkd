@@ -1,8 +1,102 @@
+# =========== PRODUCTOS =========
+
+# ok - GET: '/:id?' - Me permite listar todos los productos disponibles ó un producto por su id (disponible para usuarios y administradores)
+# ok - POST: '/' - Para incorporar productos al listado (disponible para administradores)
+# ok - PUT: '/:id' - Actualiza un producto por su id (disponible para administradores)
+# ok - DELETE: '/:id' - Borra un producto por su id (disponible para administradores)
 
 
-POST  http://localhost:3000/api/ejs/productos/ HTTP/1.1
-content-type: application/json
 
-{"title": "Pelotas ",
-   "price": 5.67,
-   "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png"}
+# GET http://localhost:3000/api/productos/ HTTP/1.1 
+# content-type: application/json
+# GET http://localhost:3000/api/productos/1 HTTP/1.1 
+# content-type: application/json
+
+
+# POST  http://localhost:3000/api/productos HTTP/1.1
+# content-type: application/json
+
+# {  
+#       "name": "probando4",
+#       "description": "",
+#       "code": 1101,
+#       "thumbnail": "https://cdn1.iconfinder.com/data/icons/office-icons-17/512/ilustracoes_04-08-256.png",
+#       "price": 2000,
+#       "stock": 15
+#     }
+
+
+# PUT http://localhost:3000/api/productos/1 HTTP/1.1 
+# content-type: application/json
+
+# {  
+#       "name": "probando14",
+#       "description": "",
+#       "code": 1101,
+#       "thumbnail": "https://cdn1.iconfinder.com/data/icons/office-icons-17/512/ilustracoes_04-08-256.png",
+#       "price": 2000,
+#       "stock": 15
+#     }
+
+
+# DELETE http://localhost:3000/api/productos/1  HTTP/1.1 
+# content-type: application/json
+
+
+
+# =========== FIN PRODUCTOS =========
+
+# ==================================================
+# ==================================================
+
+
+# =========== CARRITO =========
+
+# ok - POST: '/' - Crea un carrito y devuelve su id.
+# ok - DELETE: '/:id' - Vacía un carrito y lo elimina.
+# ok - GET: '/:id/productos' - Me permite listar todos los productos guardados en el carrito
+# ok - POST: '/:id/productos' - Para incorporar productos al carrito por su id de carro y por body producto
+# ok - DELETE: '/:id/productos/:id_prod' - Eliminar un producto del carrito por su id de carrito y de producto
+
+# =========== CARRITO =========
+
+# POST  http://localhost:3000/api/carrito/ HTTP/1.1
+# content-type: application/json
+
+# DELETE http://localhost:3000/api/carrito/4  HTTP/1.1 
+# content-type: application/json
+
+# GET http://localhost:3000/api/carrito/2/productos  HTTP/1.1 
+# content-type: application/json
+
+
+# POST  http://localhost:3000/api/carrito/2/productos HTTP/1.1
+# content-type: application/json
+
+# {  
+#       "name": "probando2",
+#       "description": "",
+#       "code": 1101,
+#       "thumbnail": "https://cdn1.iconfinder.com/data/icons/office-icons-17/512/ilustracoes_04-08-256.png",
+#       "price": 2000,
+#       "stock": 15
+#     }
+
+
+# DELETE http://localhost:3000/api/carrito/1/productos/3  HTTP/1.1 
+# content-type: application/json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

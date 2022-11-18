@@ -1,0 +1,52 @@
+[
+  {
+    "nombre": "Quimica",
+    "price": 234.56,
+    "stock": 15,
+    "timestamp": 1668710429818,
+    "código": 233,
+    "descripcion": "excelente calidad",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/tube-lab-science-school-64.png",
+    "id": 1
+  },
+  {
+    "nombre": "Calculadora",
+    "price": 234.56,
+    "stock": 1,
+    "timestamp": 1668710429818,
+    "código": 1233,
+    "descripcion": "excelente calidad",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+    "id": 2
+  },
+  {
+    "nombre": "Globo Terráqueo",
+    "price": 1234.56,
+    "stock": 4221,
+    "timestamp": 1668710429818,
+    "código": 1533,
+    "descripcion": "excelente calidad",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+    "id": 3
+  },
+  {
+    "nombre": "Libros",
+    "price": 54.56,
+    "stock": 21,
+    "timestamp": 1668710429818,
+    "código": 6533,
+    "descripcion": "excelente calidad",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-256.png",
+    "id": 4
+  },
+  {
+    "id": 5,
+    "timestamp": 1668710429818,
+    "name": "Goma",
+    "description": "",
+    "code": 10109,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/office-icons-17/512/ilustracoes_04-08-256.png",
+    "price": 2000,
+    "stock": 15
+  }
+]

@@ -16,18 +16,12 @@ y luego:
 npm run start:dev
 ```
 
- 1. En el archivo **.env** seleccionar el template a usar **hbs,pug,ejs** en minusculas
+ 1. La funcionalidad se implemento para ser proba en postman
  
- 2. El **endpoint** se encuentra en el **puerto 3000**
+ 2. El en el archivo .REST estan todos lo metodos comentados 
 
- 3. Ingresamos en la ruta http://localhost:3000/
+ 3. Descomentar uno por uno y probar 
 
- 4. Seleccionar el mismo template puesto en el **.env**
 
- 5. Para cambiar de templater parar el servidor y repetir el punto 3
-
-## Conclusión
-
-El que mas me justo fue ejs es parecido a js pug no me gusto por la indentacion 
 
 

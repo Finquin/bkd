@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-size: 22px;    /* Tamaño base */
 }
@@ -16,7 +21,8 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 4px;
+  margin: 0;
+  text-align: center;
 }
 
 h3 {
@@ -41,6 +47,13 @@ a {
   text-decoration: none;
 }
 
+.card-js {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .input-btn {
   background-color: hsl(134deg 61% 41%);
   border: none;
@@ -59,9 +72,14 @@ label {
 }
 
 .guide-use-ctn {
+  align-items: center;
   background-color: rgb(155 233 198);
-  padding: 12px;
-  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px;
+  text-align: center;
+  width: 100%;
 }
 
 .guide-use-ctn ul {
@@ -75,14 +93,22 @@ label {
 .card {
   align-content: center;
   background-color: hsl(210deg 10% 23%);
-  border: 0 0 4px 0;
+  border: 4px;
   border-color: gray;
   border-style: solid;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  justify-content: space-between;
+  margin: 12px;
+  padding: 12px;
+  width: 250px;
+}
+
+.card-ctn {
+  align-items: center;
+  display: flex;
   justify-content: center;
-  justify-items: center;
 }
 
 .card-header {
@@ -97,8 +123,10 @@ label {
 }
 
 .card-productos {
+  align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .card-body {
@@ -111,17 +139,18 @@ label {
   justify-content: center;
 }
 
-.card-img img {
-  height: 70px;
-  width: 70px;
+img {
+  height: 170px;
+  width: 170px;
 }
 
 .card-price {
+  align-items: center;
   color: hsl(189deg 7% 79%);
   display: flex;
   font-size: 26px;
   font-weight: 800;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 12px;
 }
 
@@ -139,10 +168,6 @@ label {
   font-size: 2rem;
   height: 100px;
   padding: 22px;
-}
-
-.container {
-  margin-bottom: 5px;
 }
 
 .form-btn {
