@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        <%=title %>
+    </h1>
+
+    <div class="container">
+        <% if (listExits) { %>
+            <div class="card-productos">
+                <div class="card">
+                    <div class="card-header ">Nombre</div>
+                    <div class="card-header">Precio</div>
+                    <div class="card-header">Foto</div>
+                </div>
+                <% msg.forEach((val)=> { %>
+
+                    <div class="card ">
+                        <div class="card-title">
+                            <h3>
+                                <%= val.title %>
+                            </h3>
+                        </div>
+                        <div class="card-price">
+                            <p>$ <%= val.price %>
+                            </p>
+                        </div>
+                        <div class="card-img">
+                            <img src=<%=val.thumbnail %> alt=<%= val.title %>>
+                        </div>
+
+                    </div>
+                    <% }) %>
+            </div>
+            <%} else { %>
+                <div class="no-product">
+                    No se encontraron productos
+                </div>
+                <% } %>
+
+    </div>
+    <div class="produtos-btn"> <a href="/indexEjs.html" class="form-btn">Volver al Formulario</a> </div>
+</body>
+
+</html>

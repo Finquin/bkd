@@ -1,10 +1,16 @@
-/* ==============================================================
-   Administracion de rutas
-================================================================= */
+/* ====================================
+   INDEX DE ROUTES
+   ==================================== */
 
-const express = require("express");
-const path = require("path");
-// requiemos router para empezar a trabajar
+/*
+* 1)-Cargamos el módulo externo 'express'
+* 2)-Se utiliza para resolver una secuencia de segmentos de ruta en una ruta absoluta. Funciona procesando la secuencia de rutas de derecha a izquierda
+* 3)-const router = express.Router();
+*/
+
+const express = require("express");/* [1] */
+const path = require("path");/* [2] */
+
 const router = express.Router();
 
 /* requerimos nuestro route de mascotas */

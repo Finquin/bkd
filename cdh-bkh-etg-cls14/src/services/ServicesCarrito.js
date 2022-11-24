@@ -5,11 +5,20 @@ class ServicesCarrito {
     this.ruta = ruta;
   }
 
+  /* SAVE
+    ==================================== */
+
+  /*
+  * 1)-Leemos nuestro archivo donde guardamos los productos
+  * 2)-Tomamos una cadena JSON y la transformamos en un objeto JavaScript.
+  * 3)-Devuelve el número de milisegundos transcurridos desde el 1 de enero de 1970 00:00:00 UTC
+  */
+
   async save(obj) {
     try {
-      const dataArch = await fs.promises.readFile(this.ruta, "utf8");
-      const dataArchParse = JSON.parse(dataArch);
-      const timestamp = Date.now();
+      const dataArch = await fs.promises.readFile(this.ruta, "utf8");/* [1] */
+      const dataArchParse = JSON.parse(dataArch);/* [2] */
+      const timestamp = Date.now();/* [3] */
       if (dataArchParse.length) {
         await fs.promises.writeFile(this.ruta, JSON.stringify([...dataArchParse, { id: dataArchParse[dataArchParse.length - 1].id + 1, timestamp, ...obj }], null, 2));
         const idProduct = dataArchParse[dataArchParse.length - 1].id + 1;

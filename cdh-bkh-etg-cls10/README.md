@@ -1,6 +1,6 @@
-# 👨‍🏫 Cls 10. Pug & Ejs
+# 👨‍🏫 Cls 14. Webpack
 
-**Entrega 5- Cdh - Bkd**
+**Entrega 6- Cdh - Bkd**
 
 ---
 
