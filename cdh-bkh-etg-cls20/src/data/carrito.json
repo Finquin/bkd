@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "timestamp": 1668714859566,
+    "products": [
+      {
+        "id": 1,
+        "timestamp": 1668714859566,
+        "nombre": "Producto 1",
+        "descripcion": "un producto 1",
+        "codigo": "Prod1",
+        "foto": "https://media.cnn.com/api/v1/images/stellar/prod/allbirds-sneakers-review-tree-runnerjpg.jpg?c=16x9&q=h_720,w_1280,c_fill",
+        "precio": 100,
+        "stock": 1
+      },
+      {
+        "id": 3,
+        "timestamp": 1668714859566,
+        "name": "eeeeee",
+        "description": "",
+        "code": 1101,
+        "thumbnail": "https://cdn1.iconfinder.com/data/icons/office-icons-17/512/ilustracoes_04-08-256.png",
+        "price": 2000,
+        "stock": 15
+      },
+      {
+        "id": 4,
+        "timestamp": 1668716415329,
+        "name": "eeeeee",
+        "description": "",
+        "code": 1101,
+        "thumbnail": "https://cdn1.iconfinder.com/data/icons/office-icons-17/512/ilustracoes_04-08-256.png",
+        "price": 2000,
+        "stock": 15
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "timestamp": 1668716046523,
+    "products": [
+      {
+        "id": 1,
+        "timestamp": "2022-08-23T12:00:00.000Z",
+        "nombre": "Producto 1",
+        "descripcion": "un producto 1",
+        "codigo": "Prod1",
+        "foto": "https://media.cnn.com/api/v1/images/stellar/prod/allbirds-sneakers-review-tree-runnerjpg.jpg?c=16x9&q=h_720,w_1280,c_fill",
+        "precio": 100,
+        "stock": 1
+      },
+      {
+        "id": 2,
+        "timestamp": 1668714341258,
+        "name": "Gma",
+        "description": "",
+        "code": 101,
+        "thumbnail": "https://cdn1.iconfinder.com/data/icons/office-icons-17/512/ilustracoes_04-08-256.png",
+        "price": 2000,
+        "stock": 15
+      },
+      {
+        "id": 3,
+        "timestamp": 1668714859566,
+        "name": "eeeeee",
+        "description": "",
+        "code": 1101,
+        "thumbnail": "https://cdn1.iconfinder.com/data/icons/office-icons-17/512/ilustracoes_04-08-256.png",
+        "price": 2000,
+        "stock": 15
+      }
+    ]
+  }
+]
